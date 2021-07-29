@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrate;
+  align-items: center;
+  margin: 10px;
+}
+
+.balance-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.add-transaction-btn {
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
+}
+
+.add-transaction-container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #e6e8e9;
+  gap: 10px;
+  padding: 15px 20px;
+  margin: 10px 20px;
+}
+
+.add-transaction-container input {
+  outline: none;
+  padding: 10px 12px;
+  border-radius: 4px;
+  border: 1px solid #e6e8e9;
+}
+
+.radio-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.radio-box input {
+  width: unset;
+  margin: 0 10px;
+}
