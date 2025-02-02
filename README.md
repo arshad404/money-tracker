@@ -1,4 +1,4 @@
-# money-tracker
+# money-tracker (learning project)
 
 ### This helps to track your expense, salary and search your transacation in case you do much transactions.
 
